@@ -1,0 +1,27 @@
+.header {
+  padding: 50px 0 20px 0;
+  flex-shrink: 0;
+  width: 100%;
+  align-self: flex-start;
+  &__logo {
+    width: 292px;
+    margin: 0 auto;
+  }
+}
+.logo {
+  &__link {
+    display: block;
+    width: 100%;
+  }
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media all and(max-width: 768px) {
+  .header {
+    padding: 25px 0 40px 0;
+  }
+}
